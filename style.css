@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 17pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0,0,0,0.85);
+}
+table {
+    border-collapse: collapse;
+    border: none;
+}
+thead, tbody{
+    border: 1px solid #ccc
+}
+th{
+    background-color: antiquewhite;
+    font-size: 19pt;
+    font-weight: 900;
+}
+th,td{
+    padding: 10px 12px;
+    text-align: center;
+}
+.today{
+    background-color: antiquewhite;
+}
