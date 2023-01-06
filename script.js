@@ -11,6 +11,8 @@
  * @param {number} year as YYYY
  * @param {number} month as MM
  * @returns {undefined}
+ * @author about.me/nightwalker.y (Yao Kan KOUASSI)
+ * @date 2022-01-03
  */
 function createCalendar(year, month) {
     let table = document.createElement('table')
